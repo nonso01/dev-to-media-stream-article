@@ -2,13 +2,29 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="/javascript.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Media capture and Streams API</title>
   </head>
   <body>
     <div id="app">
-      Hello MediaStream
+      <div class="app-bar">
+        <div class="app-close">✖️</div>
+        <div class="app-timer">00 : 00</div>
+        <div class="app-flash">⚡</div>
+      </div>
+
+      <div class="app-media">
+        <video width="" height="" controls controlslist></video>
+        <canvas id="" class="hide"></canvas>
+      </div>
+
+      <div class="app-capture"></div>
+
+      <div class="app-switch" data-switch="video">
+        <button class="photo">Photo</button>
+        <button class="video">Video</button>
+      </div>
     </div>
     <script type="module" src="/main.js"></script>
   </body>
