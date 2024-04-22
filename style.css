@@ -11,6 +11,10 @@ html {
   height: 100dvh;
   background-color: #272727;
   color: #fafaff;
+  & body,
+  & #app {
+    height: inherit;
+  }
 }
 
 .debug {
@@ -19,4 +23,79 @@ html {
 
 .hide {
   display: none !important;
+}
+
+.fx {
+  display: flex;
+  &.column {
+    flex-flow: column;
+  }
+  &.justify-evenly {
+    justify-content: space-evenly;
+  }
+  &.align-center {
+    align-items: center;
+  }
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.radius {
+  border-radius: 10px;
+}
+
+.app-bar {
+  height: 50px;
+  width: 50dvh;
+}
+
+.app-media {
+  height: 70%;
+  width: 95%;
+  background-color: black;
+
+  & video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.app-switch {
+  width: 60dvw;
+  height: 35px;
+
+  & button {
+    width: 45%;
+    height: 100%;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: all ease 0.2s;
+    &:hover {
+      background-color: #fafaff;
+      transform: translateY(2px);
+    }
+  }
+}
+
+.capture {
+  width: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  outline: 3px solid white;
+  outline-offset: 4px;
+  border: 2px solid transparent;
+  transition: all ease 0.2s;
+
+  &.over {
+    outline-offset: 2px;
+    background-color: indianred;
+  }
+
+  &.is-video {
+    outline-color: indianred;
+  }
 }

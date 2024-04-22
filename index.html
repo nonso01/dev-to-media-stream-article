@@ -7,21 +7,24 @@
     <title>Media capture and Streams API</title>
   </head>
   <body>
-    <div id="app">
-      <div class="app-bar">
-        <div class="app-close">✖️</div>
+    <div id="app" class="fx column justify-evenly align-center">
+      <div class="app-bar fx justify-evenly align-center">
+        <div class="app-close pointer">✖️</div>
         <div class="app-timer">00 : 00</div>
-        <div class="app-flash">⚡</div>
+        <div class="app-flash pointer">⚡</div>
       </div>
 
-      <div class="app-media">
-        <video width="" height="" controls controlslist></video>
+      <div class="app-media radius">
+        <video></video>
         <canvas id="" class="hide"></canvas>
       </div>
 
-      <div class="app-capture"></div>
+      <div class="app-capture"><button class="capture"></button></div>
 
-      <div class="app-switch" data-switch="video">
+      <div
+        class="app-switch fx justify-evenly align-center"
+        data-switch="photo"
+      >
         <button class="photo">Photo</button>
         <button class="video">Video</button>
       </div>
