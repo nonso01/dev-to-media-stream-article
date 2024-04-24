@@ -46,14 +46,24 @@ html {
   border-radius: 10px;
 }
 
+.round {
+  border-radius: 50%;
+}
+
 .app-bar {
   height: 50px;
   width: 50dvh;
 }
 
+.app-beep {
+  width: 25px;
+  aspect-ratio: 1;
+  background-color: black;
+}
+
 .app-media {
   height: 70%;
-  width: 95%;
+  width: 100%;
   background-color: black;
 
   & video {
@@ -84,7 +94,6 @@ html {
 .capture {
   width: 40px;
   aspect-ratio: 1;
-  border-radius: 50%;
   outline: 3px solid white;
   outline-offset: 4px;
   border: 2px solid transparent;
