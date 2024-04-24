@@ -59,6 +59,18 @@ html {
   width: 25px;
   aspect-ratio: 1;
   background-color: black;
+
+  &.beep {
+    animation: beeping 0.5s ease infinite;
+  }
+}
+
+@keyframes beeping {
+  from {
+    background-color: indianred;
+  } to {
+    background-color: black;
+  }
 }
 
 .app-media {
