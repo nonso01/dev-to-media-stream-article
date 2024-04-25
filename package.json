@@ -9,7 +9,6 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "eruda": "^3.0.1",
     "vite": "^5.2.0"
   },
   "dependencies": {

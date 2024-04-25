@@ -1,9 +1,7 @@
-import eruda from "eruda";
 import On from "on-dom";
 import "./style.css";
 
 (() => {
-  eruda.init();
   const log = console.log;
   const ONESEC = 1e3;
 
