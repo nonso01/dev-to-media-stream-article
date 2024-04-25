@@ -95,10 +95,10 @@ html {
     border: 2px solid #fafaff;
     position: absolute;
     top: 50%;
-    right: 5%;
+    left: 5%;
 
     opacity: 0;
-    transform: translateX(50%);
+    transform: translateX(-50%);
 
     transition: all ease 0.3s;
 
