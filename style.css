@@ -43,7 +43,7 @@ html {
 }
 
 .radius {
-  border-radius: 10px;
+  border-radius: 0.625rem;
 }
 
 .round {
@@ -51,12 +51,12 @@ html {
 }
 
 .app-bar {
-  height: 50px;
+  height: 3.125rem;
   width: 50dvh;
 }
 
 .app-beep {
-  width: 25px;
+  width: 1.5625rem;
   aspect-ratio: 1;
   background-color: black;
 
@@ -67,7 +67,7 @@ html {
 
 @keyframes beeping {
   from {
-    background-color: indianred;
+    background-color: #6cffb4;
   }
   to {
     background-color: black;
@@ -111,7 +111,7 @@ html {
 
 .app-switch {
   width: 60dvw;
-  height: 35px;
+  height: 2.1875rem;
 
   & button {
     width: 45%;
@@ -128,7 +128,7 @@ html {
 }
 
 .capture {
-  width: 40px;
+  width: 2.5rem;
   aspect-ratio: 1;
   outline: 3px solid white;
   outline-offset: 4px;
@@ -137,10 +137,10 @@ html {
 
   &.over {
     outline-offset: 2px;
-    background-color: indianred;
+    background-color: #6cffb4;
   }
 
   &.is-video {
-    outline-color: indianred;
+    outline-color: #6cffb4;
   }
 }
