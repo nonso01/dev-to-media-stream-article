@@ -119,7 +119,7 @@ const grantAccess = navigator.mediaDevices
             setTimeout(() => {
               photo.classList?.remove("captured");
             }, ONESEC * 1.5);
-        }
+        } else void 0
       },
     });
 
